@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between p-4 lg:flex-col lg:items-center lg:pt-10">
         <div className="flex items-center gap-3 lg:flex-col lg:text-center">
           <img
-            className="w-10 lg:w-24 rounded-full border border-zinc-700 lg:hover:border-white transition-all duration-1000"
+            className="w-10 lg:w-24 rounded-full border border-zinc-700 md:w-22.5 md:ml-4 lg:hover:border-white transition-all duration-1000"
             src={picture}
             alt="profile"
           />
@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="lg:hidden text-white">
+        <div className="lg:hidden md:mr-4 text-white">
           <Menu size={28} />
         </div>
       </div>
