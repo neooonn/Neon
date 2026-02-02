@@ -2,14 +2,14 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 
-const Layout = () => {
+const Layout = ({isOpen}) => {
   return (
     <div className='w-full min-h-screen bg-homeBg overflow-y-hidden'>
       <div className='max-w-6xl mx-auto flex flex-col lg:flex-row items-start'>
         
         {/* SIDEBAR: This is the critical part */}
         <aside className='w-full lg:w-64 lg:h-screen lg:fixed shrink-0 bg-bg z-50'>
-          <Navbar />
+          <Navbar isOpen={isOpen} />
         </aside>
 
         {/* MAIN CONTENT: This side will scroll normally */}
