@@ -92,7 +92,7 @@ const Projects = () => {
             {/* Tech Stack Tags */}
             <div className="flex flex-wrap gap-2">
               {project.tech.map((tag) => (
-                <span key={tag} className="px-2 py-1 text-[10px] uppercase tracking-wider font-medium bg-zinc-800 text-zinc-300 rounded-md border border-zinc-700">
+                <span key={tag} className="px-2 py-1 text-[10px] uppercase tracking-wider active:border-green-600 font-medium bg-zinc-800 text-zinc-300 rounded-md border border-zinc-700">
                   {tag}
                 </span>
               ))}
