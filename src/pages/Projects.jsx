@@ -23,7 +23,14 @@ const projectData = [
     tech: ["Node.js", "Socket.io", "MongoDB"],
     link: "#",
     github: "#"
-  }
+  },
+  {
+    title: "Project Alpha",
+    description: "A high-performance dashboard built with React and Tailwind.",
+    tech: ["React", "Tailwind", "Firebase"],
+    link: "#",
+    github: "#"
+  },
 ]
 
 const Projects = () => {
