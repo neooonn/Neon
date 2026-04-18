@@ -18,7 +18,6 @@ const Navbar = () => {
 
   return (
     <nav className="relative w-full bg-bg lg:bg-homeBg lg:h-full md:h-32.75 flex flex-col border-b border-zinc-800 lg:border-b-0">
-      {/* TOP PROFILE + HAMBURGER */}
       <div className="flex items-center justify-between p-4 lg:flex-col lg:items-center lg:pt-10">
         <div className="flex items-center gap-3 lg:flex-col lg:text-center">
           <img
