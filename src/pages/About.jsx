@@ -64,6 +64,7 @@ const About = () => {
             company={`Arxon Solution, LLC.`}
             workType={`Full-Time`}
             date={`October 2024 - November 2025`}
+            logo={nclexLogo}
           />
           <Experience
             title={`Front-End Developer `}
@@ -71,6 +72,7 @@ const About = () => {
             company={`Arxon Solution, LLC.`}
             workType={`Full-Time`}
             date={`October 2024 - November 2025`}
+            logo={nclexLogo}
           />
         </div>
       </motion.div>
